@@ -15,19 +15,15 @@ cd リポジトリ名
 yarn install
 ```
 
-1. PlayCanvas公式からAPIキーを取得(https://playcanvas.com/account)し、コマンドを実行する。
+3. PlayCanvas公式からAPIキーを取得(https://playcanvas.com/account)し、コマンドを実行する。
 
-- APIキーを入力
-- プロジェクト名を入力
-```
+```bash
 yarn playcanvas-cli init
 ```
-すると`playcanvas.json`が出力される。 
-
+すると`playcanvas.json`が出力されます。
 
 4. GulpとWebPackのスクリプトをそれぞれ実行する
-
-```
+```bash
 yarn watch:g
 yarn watch:w
 ```
