@@ -6,12 +6,13 @@ Visial Studio Codeなどで記述したコードをREST API経由でPlayCanvas�
 1. このリポジトリをgit cloneします。
 
 ```bash
+git clone git@github.com:yushimatenjin/playcanvas-typescript-starterkit.git
 ```
 
 2. yarn install.
 
-```
-cd リポジトリ名
+```bash
+cd playcanvas-typescript-starterkit
 yarn install
 ```
 
@@ -20,9 +21,11 @@ yarn install
 ```bash
 yarn playcanvas-cli init
 ```
+
 すると`playcanvas.json`が出力されます。
 
 4. GulpとWebPackのスクリプトをそれぞれ実行する
+
 ```bash
 yarn watch:g
 yarn watch:w
