@@ -1,3 +1,6 @@
+PlayCanvasでTypeScriptを使用するためのリポジトリです。
+Visial Studio Codeなどで記述したコードをREST API経由でPlayCanvasのプロジェクトへアップロードします。
+
 ## Installation
 
 1. このリポジトリをgit cloneします。
